@@ -1,0 +1,60 @@
+div{
+    height: 100vh;
+    background-color: blue;
+}
+
+@media (max-width :600px){
+    div{
+        background-color: green;
+    }
+    .grid-container{
+        display: grid;
+        grid-template-columns: repeat(2, 100px);
+        gap: 20px;
+        justify-content: center;
+        align-content: center;
+    }  
+}
+@media(min-width: 600px){
+    .grid-container{
+        display: grid;
+        grid-template-columns: repeat(4, 100px);
+        grid-template-rows: 50px 60px 70px;
+        gap: 20px;
+        justify-content: center;
+        align-content: center;
+    }    
+}
+@media (min-width: 768px) {
+    .grid-container{
+        display: grid;
+        grid-template-columns: repeat(5, 100px);
+        gap: 20px;
+        justify-content: center;
+        align-content: center;
+    }    
+}
+@media (min-width:992px){
+    .grid-container{
+        display: grid;
+        grid-template-columns: repeat(6, 100px);
+        gap: 20px;
+        justify-content: center;
+        align-content: center;
+    }
+}
+@media (min-width:1200px){
+    .grid-container{
+        display: grid;
+        grid-template-columns: repeat(8, 100px);
+        gap: 15px;
+        justify-content: center;
+        align-content: center;
+    }
+    
+}
+.grid-item{
+    width: 100px;
+    height: 100px;
+    background-color: blueviolet;
+}

@@ -1,0 +1,60 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.main{
+
+    height: 2000px;
+    /*
+    height: 800px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-image: url('blue-sky-sea-1379815.jpg') ;
+    background-attachment: scroll;
+    background-position: center;
+    background: blue url('blue-sky-sea-1379815.jpg') repeat scroll top;
+    */
+}
+a{
+    text-decoration: none;
+    text-transform: lowercase;
+}
+.paragraph{
+    text-align:justify ;
+    text-align-last: justify;
+    text-decoration:none ;
+    width: 30rem;
+    height: 30rem;
+    border-top: 10px solid red;
+    border-right: 5px dashed pink;
+    border-bottom: 20px solid blueviolet;
+    border-left: 10px dotted green;
+    border-top-left-radius: 35px;
+    border-bottom-right-radius: 35px;
+    margin: 40px;
+    padding: 80px;
+
+    /*
+    border-radius: 50px;
+    border: 2px dashed blue ;
+
+    */
+    
+    /*
+    px 
+    %
+    rem = 16px
+    em
+    vw
+    vh
+    */
+}
+
+h1{
+    font-size: 5rem;
+}
+span{
+    font-size: 0.5em;
+}
